@@ -1,15 +1,15 @@
 body {
     background-color: rgb(204, 157, 248);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 1em; /* Use uma unidade relativa */
 }
 
 main {
     background-color: seashell;
-    width: 560px;
+    max-width: 100%; /* Ajusta o tamanho máximo para a largura da tela */
     margin: auto;
-    padding: 10px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 500);
+    padding: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); /* Correção de valor da sombra */
 }
 
 h1 {
@@ -18,17 +18,18 @@ h1 {
 
 h2 {
     color: rgb(58, 0, 112);
-    font-size: 16px;
+    font-size: 1em; /* Use uma unidade relativa */
 }
 
 img.lado {
     float: right;
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner pai */
 }
 
 a {
     text-decoration: none;
     font-weight: bold;
-    font-size: small;
+    font-size: 0.8em; /* Use uma unidade relativa */
     color: rgb(58, 0, 112);
 }
 
@@ -41,11 +42,11 @@ footer {
     text-align: center;
     font-weight: lighter;
     font-style: italic;
-    font-size: smaller;
+    font-size: 0.8em; /* Use uma unidade relativa */
     color: black;
-    
 }
 
 iframe {
-    align-content: center;
+    max-width: 100%; /* Garante que o iframe não ultrapasse a largura do contêiner pai */
+    margin: 0 auto; /* Centraliza o iframe */
 }
