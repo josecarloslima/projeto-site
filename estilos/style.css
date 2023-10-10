@@ -6,7 +6,7 @@ body {
 
 main {
     background-color: seashell;
-    max-width: 100%; /* Ajusta o tamanho máximo para a largura da tela */
+    width: 600px;;
     margin: auto;
     padding: 20px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); /* Correção de valor da sombra */
